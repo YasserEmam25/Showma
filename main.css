@@ -2572,6 +2572,7 @@ fieldset {
 
 .detail-list {
   display: flex;
+  /* margin-left: 14px; */
   flex-direction: column;
   list-style: none;
 }
@@ -2596,6 +2597,7 @@ fieldset {
 .detail-icon {
   position: relative;
   top: 16px;
+
   width: 100px;
   height: 100px;
 }
@@ -2607,6 +2609,11 @@ fieldset {
 
 .fa-phone {
   left: 14px;
+  top: 16px;
+}
+
+.fa-burger {
+  left: 12px;
   top: 16px;
 }
 
